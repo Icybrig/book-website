@@ -15,7 +15,7 @@
         <a href="./index.html" class="site-name">Couleur du Temps</a>
         <div class="top-actions">
           <span>Compte</span>
-          <span class="cart">🛒 0,00 EUR</span>
+          <a href="./cart.html" id="cart-badge" class="cart">🛒 Panier</a>
         </div>
       </div>
     </header>
@@ -39,8 +39,12 @@
           <div class="detail-info">
             <h1>La Danse Dans La Culture Traditionelle Chinoise</h1>
             <p class="author">Yuan HE</p>
-            <p class="price">45,00 EUR</p>
-            <span class="btn-acheter-lg">Acheter</span>
+            <p class="price">29,00 EUR</p>
+            <p class="dimensions">Format : à définir</p>
+            <div class="detail-btn-row">
+              <button class="btn-panier-lg" data-add-to-cart data-titre="La Danse Dans La Culture Traditionelle Chinoise" data-prix="29">Ajouter au panier</button>
+              <a class="btn-acheter-lg" href="./checkout.html?titre=La+Danse+Dans+La+Culture+Traditionelle+Chinoise&prix=29">Acheter</a>
+            </div>
             <div class="detail-description">
               <h2>À propos du livre</h2>
               <p>La danse est une culture. L’objectif de ce livre est de
@@ -87,5 +91,6 @@ culturel immatériel et discipline artistique silencieuse.</p>
         <div class="footer-bottom">© 2026 Couleur du Temps — Tous droits réservés</div>
       </div>
     </footer>
+  <script src="./cart.js"></script>
   </body>
 </html>

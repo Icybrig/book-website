@@ -15,7 +15,7 @@
         <a href="./index.html" class="site-name">Couleur du Temps</a>
         <div class="top-actions">
           <span>Compte</span>
-          <span class="cart">🛒 0,00 EUR</span>
+          <a href="./cart.html" id="cart-badge" class="cart">🛒 Panier</a>
         </div>
       </div>
     </header>
@@ -39,8 +39,12 @@
           <div class="detail-info">
             <h1>La dialogue entre les pensées chinoise et arabe</h1>
             <p class="author">Minyan WU</p>
-            <p class="price">45,00 EUR</p>
-            <span class="btn-acheter-lg">Acheter</span>
+            <p class="price">19,00 EUR</p>
+            <p class="dimensions">Format : à définir</p>
+            <div class="detail-btn-row">
+              <button class="btn-panier-lg" data-add-to-cart data-titre="La dialogue entre les pensées chinoise et arabe" data-prix="19">Ajouter au panier</button>
+              <a class="btn-acheter-lg" href="./checkout.html?titre=La+dialogue+entre+les+pens%C3%A9es+chinoise+et+arabe&prix=19">Acheter</a>
+            </div>
             <div class="detail-description">
               <h2>À propos du livre</h2>
               <p>« L’esprit du juste milieu n’étant pas né du néant, nous
@@ -92,5 +96,6 @@ valoriser.</p>
         <div class="footer-bottom">© 2026 Couleur du Temps — Tous droits réservés</div>
       </div>
     </footer>
+  <script src="./cart.js"></script>
   </body>
 </html>
